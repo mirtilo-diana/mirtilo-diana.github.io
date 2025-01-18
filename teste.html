@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <style>
+        h2 {
+            color: Blue; 
+        }
+    </style>
+</head>
 <body>
 
-<h2>Data de nascimento</h2>
+<h2>Imformações</h2>
 
-<p> Comfirmação de idade:</p>
-
-<form action="">
-  <label for="datemin">Coloque seu dia, mês e ano:</label>
-  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
-  
+<form action="teste2.html">
+  <label for="fname">Primeiro nome:</label><br>
+  <input type="text" id="fname" name="fname" value="Diana"><br>
+  <label for="lname">Sobrenome:</label><br>
+  <input type="text" id="lname" name="lname" value="Onesko"><br><br>
   <input type="submit" value="Submit">
-</form>
+</form> 
 
-<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 </body>
 </html>
